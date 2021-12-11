@@ -26,14 +26,14 @@ h2{
 	font-size: 1.4em;
 }
 
-h3{
-	text-align:left;
-	border-bottom:5px solid #999;
-	font-size: 2.4em;
-}
+h3 {
+		text-align:left;
+		font-size: 18px;
+	}
+
 
 p {text-align:center;
-	margin-bottom: 10%;
+	font-size:17px;
 }
 
 h4{
@@ -44,7 +44,13 @@ h4{
 	font-size: 1.0em;
 	margin-bottom: 5px;
 }
-
+h6{
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Stencil Std, fantasy;
+	color:#126180;
+	text-align:center;
+}
 
 body {
 	background-image: url(FinalW.jpg);
@@ -83,18 +89,21 @@ form {
 	text-align:center;
 	font-size:1.4em;
 }
-
+.aligned {
+	display:flex;
+	align-items:center;
+}
  .container{
  	border-radius: 3px;
  	text-align: left;
  	background-color: #f2f2f2;
- 	padding: 5px;
+ 	padding: 8px;
  }
 
 .div-wrapper {
 	position:relative;
-	height: 10px;
-	width:10px;
+	height: 15px;
+	width:15px;
 }
 
 .div-wrapper img {
@@ -108,7 +117,14 @@ img{
 	float:right;
 }
 
+h3 span{
+		float:right;
+	border: 2px solid #ddd;
+	background-color: LightGrey;
+	margin-top:20px;
+	padding:15px;
 
+}
 
 </style>
 
@@ -116,11 +132,29 @@ img{
 
 
 
-	<h1 style="border:10px solid DarkBlue;">All Math Tutoring </h1>
-	<h2>Other Ways To Contact All Math Tutors</h2>
+	<h1 style="border:10px solid DarkBlue;">All Math Tutoring: </h1>
+
+<div style="text-align:right">
 
 
+	<a href="Payment.html" target="_blank"><h3><span>Payment</span></h3></a>
+	
+	
+	<a href=" FAQ.html"><h3><span>FAQ</span></h3></a>
 
+<a href="tutoring.html" target="_blank"><h3><span>Tutoring</span></h3></a>
+
+	<a href="About.html"><h3><span>About</span></h3></a>
+
+	<a href="index.html"><h3><span>Home</span></h3></a>
+	
+	
+	
+</div>
+
+<div class="aligned">
+<h3> Ways to contact All Math Tutoring:</h3>
+<br>
 	
 	<a href="mailto:webmaster@webpage.com"><img src="Images/email.png" alt="email image" width="55" height="55"></a>
 
@@ -128,8 +162,8 @@ img{
 	
 	<a href="https://www.instagram.com/rthomas1410/"><img src="Images/instagram.png" alt="instagram image" width="55" height="55"></a>
 
-		
-<h3>Contact Form</h3>
+	</div>	
+<h3>Contact Form:</h3>
 
 
 				<div class="container">
@@ -137,51 +171,43 @@ img{
 				<form method="POST" action="mailto:Justin@thomas1410.com">
 
 
-
 			<label for="fname">First Name</label>
 			<input type="text" id="fname" name="firstname" placeholder="your first name">
-		<br>
-
+<br>
 
 			<label for="lname">Last Name</label>
 			<input type="text" id="lname" name="lastname" placeholder="your last name">
-			<br>
+		<br>
 
 			<label for="email">Email</label>
 			<input type="text" id="email" name="email" placeholder="email">
-			<br>
+	<br>
 
 			<label for="cellphone">Cell Phone</label>
 			<input type="text" id="cellphone" name="cellphone" placeholder="cellphone">
-			<br>
+	<br>
 				    
 			<input   type="submit" value="Submit">
 						
 			<input   type="Reset" name=" ">
-
-<a href="index.html"><h4 style="color:#3300cc;font-family: Tahoma">Go Back to Home</h4></a>
-    	<p>All Requests will be responded to within 48 hours</p>
-	
-
-</form>
-</div>
+			<br>
+		</form>
+ 	<p>All Requests will be responded to within 48 hours</p>
+ <br>
+		</div>
+ 
 
 
 <div>
-<img src="Images/geom.jpg" alt="geom" width="250" height="275" style="float:left; width: 30%; height: 20%; margin-right: 10%; margin-bottom: 5%;">
+<img src="Images/geom.jpg" alt="geom" width="250" height="275" style="float:left; width: 40%; height: 30%; margin-left: 7%; margin-bottom: 3%;">
 </div>
 <div>
-<img src="Images/studentmath.jpg" alt="Mathstudent" width="250" height="275" style="float:left; width: 30%; height:20%;margin-right: 10%; margin-bottom: 5%;">
+<img src="Images/studentmath.jpg" alt="Mathstudent" width="250" height="275" style="float:left; width: 40%; height:30%;margin-left: 7%; margin-bottom: 3%;">
 	</div>
-				<footer>
-							
-							<br>
+				
 
-						
-								<br>
-							
 
-					</footer>
-
-</body>
+					
+					<h6>"What is mathemtatics? It is only a systematic effort of solving puzzles posed by nature." - Shakuntala Devi </h6>	
+	</body>					
 </html>

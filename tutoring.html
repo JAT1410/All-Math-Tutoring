@@ -12,20 +12,21 @@
 
 	<style>
 
-#table, th, td {
+table, th, td {
   border: 1px #ddd;
   background-color: #DCDCDC;
+  text-align: center;
 }
 
 #table1{
-	margin-left:150px;
+	margin-left:30px;
 	
 }
 
 #table1 {
   font-family: Arial, Helvetica, sans-serif;
    border-collapse: collapse;
-  width: 30%;
+  width: 25%;
 }
 
 #table1 td, #table1 th {
@@ -49,21 +50,22 @@
 #table, th, td {
   border: 1px solid #ddd;
   background-color: #DCDCDC;
+  text-align: center;
 }
 
+
 #table2{
-	margin-right:auto;
-	margin-left:auto;
+	margin-left:30px;
 }
 
 
 #table2 {
   font-family: Arial, Helvetica, sans-serif;
    border-collapse: collapse;
-  width: 40%;
+  width: 25%;
 }
 
-#table2 td, #table1 th {
+#table2 td, #table2 th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -84,20 +86,20 @@
 #table, th, td {
   border: 1px solid #ddd;
   background-color: #DCDCDC;
-
+  text-align: center;
 }
+
 #table3{
-	margin-right:auto;
-	margin-left:auto;
+	margin-left:30px;
 }
 
 #table3 {
   font-family: Arial, Helvetica, sans-serif;
    border-collapse: collapse;
-  width: 31%;
+  width: 25%;
 }
 
-#table3 td, #table1 th {
+#table3 td, #table3 th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -131,36 +133,46 @@ h1{ text-align:center;
 h2
 { text-align:center;
 font-size: 20px;
+font-weight:bold;
 
 }
 
 h3 {
-		font-size: 20px;
-		margin-left:auto;
-		margin-right:auto;
-		text-align: left;
-	
-}
+		text-align:left;
+		font-size: 18px;
+	}
 
 h4{
-		text-align:center;
+		text-align:left;
 		font-size: 20px;
 		margin-bottom: 2px;
 		
 
 	}
-
-h5
-{ text-align:center;
-	font-size: 20px;
-		margin-bottom: 2px;
+h5{
+	font-weight: bold;
+	font-stretch: extra-condensed;
+	font-size: 30px;
+	font-family: Copperplate, fantasy;
+	color:blue;
+	text-align:center;
 		
 }
 
+h6{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Stencil Std, fantasy;
+	color:red;
+	text-align:center;
+		
+}
 p
 { text-align:center;
-	font-size: 15px;
+	font-size: 19px;
 		margin-bottom: 2px;
+		margin-left: 100px;
+		font-style: italic;
 }
 
 h3 span{
@@ -168,82 +180,59 @@ h3 span{
 	float:right;
 	border: 2px solid #ddd;
 	background-color: LightGrey;
+	margin-top:20px;
 	padding:15px;
 
 }
 
 
+.aligned {
+	
+	display: flex;
+	align-items:center;
+}
+body{
+		background-image:url(Images/FinalW.jpg);
+
+}
+
 	</style>
+
 </head>
 <body>
+
+
+
 	<h1>Tutoring Rates:</h1>
 	<!--This is my contact info-->
+
 	
-
-
-<img src="Images/Chalkboard.jpeg" alt="chalkboard" width="400" height="230" style="float:left; width: 20%; margin-right: 10%; margin-top:2px;">
-
-
-
 <div style="text-align:right">
 
 
-	
-	
-	
-	<a href="Payment.html" target="_blank"><h3><span>Payment</span></h3></a>
-
-	<a href="FAQ.html" target="_blank"><h3><span>FAQ</span></h3></a>
-	
 
 	<a href="Contact.html"><h3><span>Contact Info</span></h3></a>
+
+<a href="Payment.html" target="_blank"><h3><span>Payment</span></h3></a>
+
+<a href="FAQ.html" target="_blank"><h3><span>FAQ</span></h3></a>
+
 	<a href="About.html"><h3><span>About</span></h3></a>
 
 	<a href="index.html"><h3><span>Home</span></h3></a>
-
-
-	
+	<br>
+		
 </div>
-	<h2>Individual Tutoring</h2>
-				
-<table id="table1">
 	
 	
-	
+<div class="aligned">
 
-<tr>
-    <th>Minutes</th>
-    <th>Rates</th>
- 
-  </tr>
-  <tr>
-    <td>30 minutes</td>
-    <td>$60</td>
-    
-  </tr>
-  <tr>
-    <td>60 minutes</td>
-    <td>$100</td>
-     
-  </tr>
-  
-  <tr>
-    <td>90 minutes</td>
-    <td>$150</td>
-  
-  </tr>
-  
-</table>
 
-		<h5>Group Tutoring</h5>		
-
-		<table id="table2">
-			<tr>
-		<
-	</tr>
+	<table id="table2">
+		
 				<tr>
 				<th>Minutes</th>
-				<th>Rates</th>
+				<th>Rates Individual</th>
 				</tr>
 		
 
@@ -260,13 +249,32 @@ h3 span{
 		 </table>
 
 
-<h4>Virtual tutoring</h4>
+		<table id="table1">
+			
+				<tr>
+				<th>Minutes</th>
+				<th>Rates Group</th>
+				</tr>
+		
+
+			<tr>
+				<td>60 minutes</td>
+				<td>$40 per person</td>
+			</tr>
+			<tr>
+				<td>90 minutes</td>
+				<td>$60 per person</td>
+			</tr>
+		
+			
+		 </table>
+
 
 <table id="table3">
 
 				<tr>
-				<th>30 minutes</th>
-				<th>$45</th>
+				<th>Minutes</th>
+				<th>Rates Virtual</th>
 				</tr>
 			
 			
@@ -280,12 +288,36 @@ h3 span{
 			</tr>
 			
 	</table>
+</div>
+
+
 		
+<div style="text-align:center">
+	<br>
+ <h2>Subjects taught: Algebra, Calculus, Trigonometry, Geometry, Statistics, SAT prep and other test prep. </h2>
+ 
+<br>
 
+<p>"My child was failing math until she started All Math Tutoring. Ryan is a patient and knowledgable tutor." - Susan </p>
+<br>
 
-				<footer>
-					<h6>Continuing to find the correct placement for students</h6>	
-								<p>Copyright 2021. All rights reserved.</p>
-							</footer>
+<p>"My tutoring sessions are going well. I am pleased with all the tips and personalized information given that have helped me to succeed in class" - John</p>
+<br>
+<p>"My tutor went through every problem on my homework and I now understand how to solve the problems in the future" - Anne</p>
+<br>
+<p>"My tutor helped me understand Quadratic equations" - Matthew.</p>
+<br>
+<p>"Math does not come easy to me but my tutor has encouraged me and taught me new ways to approach difficult math problems"</p>
+<br>
+<br>
+</div>
+	
+		<img src="Images/Chalkboard.jpeg" alt="chalkboard" width="400" height="230" style="float:right; width: 35%; margin-right: 20%; margin-top:2px;">
+
+<h5> MAKING MATH</h5>
+ <h5>FUN! </h5>
+<h6>" The only way to learn mathmatics is to do mathematics" - Paul Halmos</h6>
+								
+							
 </body>
 </html>	
